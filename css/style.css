@@ -3,6 +3,11 @@
     border-spacing: 1px;
     background-color: black;
     border: 5px solid black;
+    position: absolute;
+    top: 325px;
+    bottom: 0;
+    left: 500px;
+    margin:auto;
 }
 
 .row{
@@ -14,4 +19,28 @@
     background-color: white;
     width: 40px;
     height: 40px;
+}
+
+.pen{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+#palette{
+    position:absolute;
+    top: 75px;
+    bottom: 0;
+    left: 475px;
+    margin:auto;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    margin-left: 600px;
+    color: white;
 }
